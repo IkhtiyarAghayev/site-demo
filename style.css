@@ -1,0 +1,186 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.navbar {
+  padding-top: 10px;
+  background-color: white;
+}
+.navbar-brand {
+  margin-left: 7%;
+}
+.nav-item {
+  margin-right: 20px;
+}
+.nav-item :hover {
+  color: hsl(5, 85%, 63%);
+}
+
+.lastNavLink {
+  margin-right: 54px;
+}
+
+.cube {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.row {
+  margin-top: 120px;
+}
+
+.container2 {
+  height: 480px;
+  background-color: hsl(240, 100%, 5%);
+}
+.asd {
+  width: 50%;
+}
+.heading1 {
+  font-weight: 900;
+  float: left;
+  color: black;
+}
+.pp2 {
+  width: 50%;
+  float: left;
+}
+.but {
+  margin-top: 16px;
+  margin-left: 0;
+  letter-spacing: 0.2rem;
+  border: 0ch;
+  color: white;
+  background-color: hsl(5, 85%, 63%);
+  height: 40px;
+  width: 150px;
+}
+.but:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+.heading2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: hsl(35, 77%, 62%);
+}
+p {
+  font-size: 15px;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+}
+.container2h {
+  color: white;
+  font-weight: 700;
+}
+
+.container2p {
+  color: hsl(233, 8%, 79%);
+}
+.containera {
+  text-decoration: none;
+}
+.containera :hover {
+  color: hsl(35, 77%, 62%);
+}
+.second {
+  margin-top: 40px;
+}
+.img2 {
+  float: left;
+  width: 120px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+.bottomheadingh3 {
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  color: hsl(236, 13%, 42%);
+  margin-bottom: 30px;
+}
+.bottomheadingh5 {
+  color: black;
+  font-weight: 900;
+}
+.bottom-a {
+  text-decoration: none;
+}
+.bottom-a :hover {
+  color: hsl(5, 85%, 63%);
+}
+.nav-link {
+  margin-left: 10px;
+  display: inline;
+}
+
+@media (max-width: 1230px) {
+  .bottomheadingh3 {
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 1131px) {
+  .container2 {
+    height: 500px;
+  }
+  hr {
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+}
+
+@media (max-width: 1061px) {
+  .bottomheadingh3 {
+    margin-bottom: 5px;
+    font-size: 25px;
+  }
+  .bottomheadingh5 {
+    font-size: 17px;
+  }
+  .bottomparagraph {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991px) {
+  .heading1 {
+    width: auto;
+    float: none;
+  }
+  .pp2 {
+    width: auto;
+  }
+  .container2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    height: auto;
+  }
+  br {
+    display: none;
+  }
+  .navbar {
+    text-align: center;
+  }
+  .nav-item {
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .lastNavLink {
+    margin-right: auto;
+  }
+  .bottomheadingh3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .bottomheadingh5 {
+    font-size: 20px;
+  }
+  .bottomparagraph {
+    font-size: 15px;
+  }
+}
